@@ -1,0 +1,23 @@
+:root {
+  --greyDark: #040404;
+  --greyLight: #131313;
+  --greyLighter: #3d3d3d;
+  --greyText: #b3b3b3;
+  --greyNav: #090909;
+  --greenMain: #1db954;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(../font/GothamMedium.ttf) format("ttf")
+}
+
+.modal{
+    background-color: #1E1E1E;
+    border: 1px solid #b3b3b3;
+    width: 150px;
+}
+
+.modal-content{
+    margin-bottom: 15px;
+}

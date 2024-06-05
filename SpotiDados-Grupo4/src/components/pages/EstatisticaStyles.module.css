@@ -1,0 +1,170 @@
+:root {
+  --greyDark: #040404;
+  --greyLight: #131313;
+  --greyLighter: #282828;
+  --greyText: #b3b3b3;
+  --greyNav: #090909;
+  --greenMain: #1db954;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(../../font/GothamMedium.ttf) format("ttf")
+}
+
+body {
+  background-color: #1E1E1E;
+  font-family: "Gotham";
+  color: white;
+  font-size: 1.3em;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding: 30px;
+} 
+
+.login{
+  position: fixed;
+  top: 0;
+  left: 200px;
+}
+
+.profPic{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.hiRaj{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(51, 51, 51, 1);
+  font-size: 18px;
+  width: 1148px;
+  height: 100px;
+  margin-left: -80px;
+  margin-top: 30px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+
+h2{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.trad{
+  margin-left: 130px;
+}
+
+h3{
+  font-size: 18px;
+  margin: 20px 0 40px 0
+}
+
+.cardTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.cardsTop {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  font-size: 13px;
+}
+
+.cardsBottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+.cardPlays {
+  background-color: #27856a;
+  width: 170px;
+  height: 150px;
+  margin-right: 120px;
+  border-radius: 5px;
+}
+.cardDifSongs {
+  background-color: #283ea3;
+  width: 170px;
+  height: 150px;
+  margin-right: 120px;
+  border-radius: 5px;
+}
+.cardTotalPlays {
+  background-color: #1e3264;
+  width: 170px;
+  height: 150px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+.cardDateTime {
+  background-color: #8d67ab;
+  width: 170px;
+  height: 150px;
+  margin-right: 120px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.cardSeason {
+  background-color: #e8115b;
+  width: 170px;
+  height: 150px;
+  margin-right: 120px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.cardAvarage {
+  background-color: #7358ff;
+  width: 170px;
+  height: 150px;
+  margin-right: 40px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.título{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.títuloDif{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.stat{
+  text-align: right;
+  margin-top: 60px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.statDif{
+  text-align: right;
+  margin-top: 80px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+

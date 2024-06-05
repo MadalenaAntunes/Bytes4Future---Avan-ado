@@ -1,0 +1,119 @@
+:root {
+  --greyDark: #040404;
+  --greyLight: #131313;
+  --greyLighter: #3d3d3d;
+  --greyText: #b3b3b3;
+  --greyNav: #090909;
+  --greenMain: #1db954;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(./font/GothamMedium.ttf) format("ttf")
+}
+
+.App {
+  text-align: center;
+  font-family: "Gotham";
+  display: flex;
+  background-color: #1E1E1E;
+}
+  
+.wraperDad {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: 70px;
+  background-color: #1E1E1E;
+}
+
+.wraperDad ul {
+ list-style-type: none;
+}
+
+h1{
+  font-size: 32px;
+}
+
+.fButtons{
+  background-color: #535353;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+  width: 100px;
+  height: 25px;
+}
+
+.fButtons:hover{
+  background-color: white;
+  color: #535353;
+  cursor: pointer;
+}
+
+.hrF {
+  border: 1px solid #b3b3b333;
+  margin: 5px
+}
+
+.wraperTop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -6px;
+}
+
+.smallDad {
+  display: flex;
+  flex-direction: row;
+}
+
+.pT{
+  color:#1db954;
+  font-size: 16px;
+  text-align: center;
+}
+
+.hrP{
+  border: 1px solid #1db954c0;
+  width: 150px;
+}
+
+.TopArtistas {
+  width: 33.33%;
+  padding: 20px;
+  background-color: #1E1E1E;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+.albums {
+  list-style-type: none;
+}
+
+.TopAlbuns {
+  width: 33.33%;
+  padding: 20px;
+  background-color: #1E1E1E;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+.TopTracks {
+  width: 33.33%;
+  padding: 20px;
+  background-color: #1E1E1E;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+.mainStats{
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+}
