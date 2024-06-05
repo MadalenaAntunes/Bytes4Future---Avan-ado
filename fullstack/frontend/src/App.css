@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(./360_F_617474687_rqPZ5p5HxD9RZUajSDBYlffpq9PIs8oY.jpg) ;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: palevioletred;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: palevioletred;
+  color: white;
+  transition: 400ms;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent(110, 113, 114);
+  color: white;
+  font-weight: 700;
+  padding: 15px 50px 50px 50px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 25px rgb(88, 88, 88);
+}
